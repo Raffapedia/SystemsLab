@@ -1,0 +1,6 @@
+AsSiGN x EqUaLs (FLOATINPUT) EnDLinE
+AsSiGN y EqUaLs (0) EnDLinE
+LoOP ((x) > (y)) BeGIn
+    y EqUaLs ((y) + (1)) EnDLinE
+EnDLinE
+PrInT ((y) - (1)) EnDLinE

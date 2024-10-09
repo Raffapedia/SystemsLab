@@ -1,0 +1,19 @@
+AsSiGN x EqUaLs (INTINPUT) EnDLinE
+AsSiGN y EqUaLs (INTINPUT) EnDLinE
+AsSiGN z EqUaLs (0) EnDLinE
+LoOP (((x) - (y)) > (0)) BeGIn
+    z EqUaLs (x) EnDLinE
+    x EqUaLs (y) EnDLinE
+    y EqUaLs (z) EnDLinE
+EnDLinE
+LoOP (x) BeGIn
+    y EqUaLs ((y) - (x)) EnDLinE
+    LoOP (((x) - (y)) > (0)) BeGIn
+        z EqUaLs (x) EnDLinE
+        x EqUaLs (y) EnDLinE
+        y EqUaLs (z) EnDLinE
+    EnDLinE
+EnDLinE
+
+PrInT ("GCD is") EnDLinE
+PrInT (y) EnDLinE

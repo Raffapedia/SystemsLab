@@ -1,0 +1,13 @@
+AsSiGN x EqUaLs (5) EnDLinE
+AsSiGN y EqUaLs (7) EnDLinE
+AsSiGN z EqUaLs (#) EnDLinE
+(3)@z EqUaLs (17) EnDLinE
+PrInT ((x) + (y)) EnDLinE
+PrInT ((3)@(z)) EnDLinE
+x EqUaLs ("hello") EnDLinE
+PrInT (x) EnDLinE
+
+LoOP ((3)@(z)) COFFEE
+(3)@z EqUaLs (((3)@(z)) - (1)) EnDLinE
+PrInT ((3)@(z)) EnDLinE
+EnDLinE
